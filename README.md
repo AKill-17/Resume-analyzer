@@ -1,4 +1,3 @@
-# Resume-analyzer
 # 🧠 Resume Analyzer ATS – Powered by Gemini & Python
 
 🎯 **Your AI-Powered Resume Sidekick for Beating the Bots!**
@@ -13,44 +12,48 @@ This Python-based analyzer, enhanced with **Google's Gemini AI**, compares your 
 
 ✅ **ATS Resume Score** (Match % based on relevance)  
 🔑 **Missing Keywords** (Skills, tools, or experiences not mentioned)  
-📊 **Section Quality Feedback** (Optional add-on)  
-📁 **Support for PDF & DOCX** formats  
-🧠 **Context-aware Suggestions** using Gemini's language intelligence
+📊 **Smart Suggestions** to improve your resume  
+🖼️ **PDF Preview using pdf2image**  
+🌐 **Interactive Streamlit UI** for ease of use  
+📁 **Support for PDF Resume Format**
 
 ---
 
 ## 💡 Why This Matters
 
-Most resumes are **screened by AI** before they ever reach a human. This tool helps you:
+Most resumes are **screened by AI systems (ATS)** before a human even looks at them. This tool helps you:
 
-- See how well your resume matches the job
-- Understand what important keywords you’re missing
-- Optimize your chances of getting shortlisted
+- **Understand how well your resume matches the job description**
+- **Identify important keywords you're missing**
+- **Optimize your resume for higher shortlisting chances**
 
-Perfect for **students, job seekers, career coaches**, or **resume-building apps**.
+Perfect for **students, job seekers, career coaches**, or **resume-enhancing platforms**.
 
 ---
 
 ## 🔧 Built With
 
-- 🐍 Python (Text extraction, keyword processing)
-- 🌐 Gemini API (Natural Language Understanding)
-- 📄 PDF & DOCX Readers
-- 🧠 Spacy/NLTK (Optional for keyword extraction)
-- ❤️ Designed for simplicity and speed
+- 🐍 Python 3  
+- 🌐 Streamlit – for interactive web interface  
+- 🧠 Gemini API – for intelligent, contextual comparison  
+- 📄 `pdf2image` – to render resume preview  
+- 📦 `PyMuPDF`, `NLTK`, `re`, and other NLP tools
 
 ---
 
-## 📸 Sneak Peek (optional)
-
-_Add GIF or screenshot here showing sample input/output_
-
----
-
-## 🛠️ How to Use
+## 🛠️ How to Clone and Run
 
 ```bash
-1. Clone this repo
-2. Add your resume & job description
-3. Run main.py
-4. Get insights, keyword suggestions, and match %
+# 1. Clone the repository
+git clone https://github.com/your-username/resume-analyzer-ats.git
+cd resume-analyzer-ats
+
+# 2. Create a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# 3. Install the dependencies
+pip install -r requirements.txt
+
+# 4. Run the Streamlit app
+streamlit run app.py
