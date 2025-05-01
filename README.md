@@ -36,8 +36,7 @@ Perfect for **students, job seekers, career coaches**, or **resume-enhancing pla
 - 🐍 Python 3  
 - 🌐 Streamlit – for interactive web interface  
 - 🧠 Gemini API – for intelligent, contextual comparison  
-- 📄 `pdf2image` – to render resume preview  
-- 📦 `PyMuPDF`, `NLTK`, `re`, and other NLP tools
+- 📄 `pdf2image` – to render resume preview 
 
 ---
 
@@ -45,8 +44,8 @@ Perfect for **students, job seekers, career coaches**, or **resume-enhancing pla
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/resume-analyzer-ats.git
-cd resume-analyzer-ats
+git clone https://github.com/AKill-17/Resume-analyzer.git
+cd Resume-analyzer
 
 # 2. Create a virtual environment (optional but recommended)
 python -m venv venv
